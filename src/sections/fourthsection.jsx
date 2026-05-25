@@ -6,20 +6,20 @@ function FourthSection() {
   return (
     <section className="bg-[#FFF8F7] w-full h-[990px] flex flex-col">
       <div>
-        <h1 className="text-[40px] font-[500] text-[#000026] ml-[429px] mt-[96px] mr-[464px]">
+        <h1 className="text-[40px] font-[500] text-[#000026] mx-auto mt-[96px] text-center ">
           Most Popular In This Week
         </h1>
       </div>
 
       <div>
-        <p className="text-[16px] font-[400] text-[#727272] ml-[419px] mt-[16px] w-[527px] text-center">
+        <p className="text-[16px] font-[400] text-[#727272] mx-auto mt-[16px] w-[527px] text-center">
           There are so many platforms from this Pokan to make a task
           manager manage all your time, the data needed is very useful.
           and we have it all to get you to be successful
         </p>
       </div>
 
-      <div className="flex flex-row gap-[45px] ml-[143px] mt-[56px]">
+      <div className="flex flex-row gap-[45px] mx-auto mt-[56px] item-center">
         <div className="w-[328px]">
           <div className="w-[328px] h-[247.02px] bg-[#FFAB9F]/90 rounded-t-[20.87px] flex flex-col items-center">
             <img src={person1} alt="person1" className="w-[175.28px] h-[171.3px] mt-[82.63px]" />
@@ -48,9 +48,11 @@ function FourthSection() {
               Fausiah Fera
             </h1>
 
-            <p className="text-[16px] font-[400] text-[#727272] mt-[16px] ml-[32px] w-[264px] text-left">
-              Fera is a student from one of the famous universities in Tokyo and
-              she is a very famous and very beautiful woman.
+            <p className="text-[16px] font-[400] text-[#727272] mt-[16px] ml-[32px] mb-[32px] w-[264px] text-left">
+              Fera is a student from one of the 
+              famous universities in Tokyo and
+              she is a very famous and very 
+              beautiful woman.
             </p>
           </div>
         </div>
